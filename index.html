@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCaster</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+</head>
+
+<body>
+    <center>
+        <h1><span id="sky">Sky</span><span id="caster">Caster</span></h1>
+        <div class="SearchContent">
+            <input type="text" name="" id="SearchBar" placeholder="Search for city or country">
+            <button id="searchBtn" onclick="SearchWeather()"><img src="Assets/search.svg" alt=""></button>
+        </div>
+        <div class="body">
+            <div class="locationAndDate">
+                <div class="locationAndDateContent">
+                    <span id="locationTxt">Panadura, SriLanka</span><br>
+                    <p><span class="day">Today </span><span id="monthAndYear">Jan10, 2024</span></p>
+                </div>
+            </div>
+            <div class="timeAndWeather-info">
+                <div class="timeAndWeatherContenet">
+                    <span class="time">Now</span><span id="clock">3.45 AM</span><br><br>
+                    <span id="temp">15℃</span><br><br>
+                    <div class="weather-info">
+                        <div class="condition">
+                            <span>Condition</span><br>
+                            <img src="Assets/Frame.svg" alt="" id="conditionImg"><br>
+                            <span id="conditionTxt">Party Cloudy</span>
+                        </div>
+                        <div class="rain">
+                            <span>Chances of Rain</span><br>
+                            <img src="Assets/e9f4984b04d1f07be3a4d9a5e7a3040e.png" alt="" class="rainImg"><br>
+                            <span id="rainTxt">85%</span>
+                        </div>
+                        <div class="wind">
+                            <span>Wind Km/h</span><br>
+                            <img src="Assets/Wind.svg" alt="" class="windImg"><br>
+                            <span id="windTxt">6.5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="forecastAndHistory">
+            <div class="weather1">
+                <div class="weather1Content">
+                    <span id="weather1Content1">Yesterday</span><br>
+                    <img id="weather1Content2" src="Assets/41c741cd2416cd6e8bfa24cdcc254a08.png" alt=""><br>
+                    <span id="weather1Content3">Patchy Rain</span><br>
+                    <span id="weather1Content4">22℃</span>
+                </div>
+            </div>
+            <div class="weather2">
+                <div class="weather2Content">
+                    <span id="weather2Content1">Tomorrow</span><br>
+                    <img id="weather2Content2" src="Assets/81ce375df5530dae22a28a2eaaf69c9d.png" alt=""><br>
+                    <span id="weather2Content3">Party cloudy</span><br>
+                    <span id="weather2Content4">18℃</span>
+                </div>
+            </div>
+            <div class="weather3">
+                <div class="weather3Content">
+                    <span id="weather3Content1">Jan 11</span><br>
+                    <img id="weather3Content2" src="Assets/c805b57aea405e97544b9c7f93fc1c39.png" alt=""><br>
+                    <span id="weather3Content3">Thunderstorm</span><br>
+                    <span id="weather3Content4">22℃</span>
+                </div>
+            </div>
+            <div class="weather4">
+                <div class="weather4Content">
+                    <span id="weather4Content1">Jan 12</span><br>
+                    <img id="weather4Content2" src="Assets/Frame.svg" alt=""><br>
+                    <span id="weather4Content3">Party Cloudy</span><br>
+                    <span id="weather4Content4">24℃</span>
+                </div>
+            </div>
+            <div class="weather5">
+                <div class="weather5Content">
+                    <span id="weather5Content1">Jan 13</span><br>
+                    <img id="weather5Content2" src="Assets/41c741cd2416cd6e8bfa24cdcc254a08.png" alt=""><br>
+                    <span id="weather5Content3">Patchy Rain</span><br>
+                    <span id="weather5Content4">23℃</span>
+                </div>
+            </div>
+            <div class="weather6">
+                <div class="weather6Content">
+                    <span id="weather6Content1">Jan 14</span><br>
+                    <img id="weather6Content2" src="Assets/81ce375df5530dae22a28a2eaaf69c9d.png" alt=""><br>
+                    <span id="weather6Content3">Party Cloudy</span><br>
+                    <span id="weather6Content4">24℃</span>
+                </div>
+            </div>
+            <div class="weather7">
+                <div class="weather7Content">
+                    <span id="weather7Content1">Jan 15</span><br>
+                    <img id="weather7Content2" src="Assets/Frame.svg" alt=""><br>
+                    <span id="weather7Content3">Party Cloudy</span><br>
+                    <span id="weather7Content4">27℃</span>
+                </div>
+            </div>
+            <div class="weather8">
+                <div class="weather8Content">
+                    <span id="weather8Content1">Jan 16</span><br>
+                    <img id="weather8Content2" src="Assets/Frame.svg" alt=""><br>
+                    <span id="weather8Content3">Party Cloudy</span><br>
+                    <span id="weather8Content4">29℃</span>
+                </div>
+            </div>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
