@@ -1,4 +1,4 @@
-const apiKey = 'a62aebaf0b274d51a16100612242908';
+const apiKey = 'd4613a4e9a2e44a9bc535025240410';
 let searchBtn = document.getElementById("searchBtn");
 const temp = document.getElementById("temp");
 const conditionImg = document.getElementById("conditionImg");
